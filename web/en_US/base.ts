@@ -1,7 +1,6 @@
-import type { TranslationKey } from './dictionaries';
-
-const enUS = {
-  'common.language': 'Language',
+/** Generated from the legacy i18n module during the directory migration. */
+export default {
+'common.language': 'Language',
   'common.search': 'Search',
   'common.login': 'Log in',
   'common.register': 'Sign up',
@@ -54,6 +53,7 @@ const enUS = {
   'nav.history': 'History',
   'nav.creationMessages': 'Creation & messages',
   'nav.creatorWorkbench': 'Creator workbench',
+  'nav.pendingContent': 'Pending content',
   'nav.myTasks': 'My tasks',
   'nav.abilityCenter': 'Ability center',
   'nav.messages': 'Messages',
@@ -87,6 +87,30 @@ const enUS = {
   'footer.legal': '"Minecraft" and "我的世界" are trademarks of Mojang Synergies AB. This site is not affiliated with Mojang or Microsoft.',
   'cookie.learn': 'You can learn why cookies are needed and read',
   'cookie.rulesHere': 'the rules here',
-} satisfies Record<TranslationKey, string>;
-
-export default enUS;
+  'cookie.text': 'We use cookies to improve your browsing experience and analyze site traffic.',
+  'cookie.acceptAll': 'Accept all',
+  'cookie.essentialOnly': 'Essential only',
+  'seo.defaultSiteName': 'MC Forum',
+  'seo.defaultDescription': 'A Minecraft resource sharing community',
+  'common.loading': 'Loading...',
+  'common.loadFailed': 'Failed to load',
+  'common.retry': 'Retry',
+  'common.save': 'Save',
+  'common.saving': 'Saving...',
+  'common.cancel': 'Cancel',
+  'common.confirm': 'Confirm',
+  'common.submit': 'Submit',
+  'common.delete': 'Delete',
+  'common.edit': 'Edit',
+  'common.back': 'Back',
+  'common.more': 'View more',
+  'common.empty': 'No data yet',
+  'common.prevPage': 'Previous',
+  'common.nextPage': 'Next',
+  'common.total': '{count} items',
+  'common.filter': 'Filter',
+  'common.reset': 'Reset',
+  'common.all': 'All',
+  'common.required': 'Required',
+  'common.optional': 'Optional',
+} as const;
